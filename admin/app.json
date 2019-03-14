@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/article/article",
+    "pages/user/user",
+    "pages/docDetail/docDetail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "小程序练习",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "##646464",
+    "selectedColor": "#000000",
+    "backgroundColor": "#F5FFFA",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_s.png"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "书城",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/book_s.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_s.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

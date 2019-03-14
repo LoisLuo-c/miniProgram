@@ -1,0 +1,39 @@
+<view class='container'>
+  <view class='userInfo' wx:if="{{isLogin}}">
+    <view class='userImg' bindtap="chooseImage">
+      <image src='{{imgUrl}}'></image>
+    </view>
+    <view class='name'>
+      <text>bilibili</text>
+    </view>
+  </view>
+  <view class='noLogin' wx:if="{{!isLogin}}">
+    <view class='loginBtn' bindtap='login'>
+      点击登录
+      <icon class="iconfont icon-jiantou right"></icon>
+    </view>
+  </view>
+  <view class='userFunList'>
+    <view class='treatmentRecord item' bindtap='register'>
+      <icon class="iconfont icon-zhiliaodengji"></icon>
+      治疗记录
+      <icon class="iconfont icon-jiantou right"></icon>
+    </view>
+    <view class='browsingHistory'>
+      <icon class="iconfont icon-liulan"></icon>
+      浏览历史
+      <icon class="iconfont icon-jiantou right"></icon>
+    </view>
+    <view class='concern item'>
+      <icon class="iconfont icon-yonghu"></icon>
+      我的关注
+      <icon class="iconfont icon-jiantou right"></icon>
+    </view>
+    <view class='Logout item' bindtap="logout">
+      <icon class="iconfont icon-tuichudenglu"></icon>
+      退出登录
+      <icon class="iconfont icon-jiantou right"></icon>
+    </view>
+  </view>
+
+</view>

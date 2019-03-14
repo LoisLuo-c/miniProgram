@@ -1,0 +1,36 @@
+.container{
+  width: 100%;
+  height: 100%;
+}
+.top{
+  width: 100%;
+  height:700rpx;
+}
+.image{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+}
+.image image{
+  align-self:center;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 200rpx;
+}
+.content{
+  width: 100%;
+  height: auto;
+}
+.content .name{
+  display: block;
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.content .introduce{
+  width: 80%;
+  margin-left: 10%;
+  word-wrap: break-word;
+  text-align: center;
+}

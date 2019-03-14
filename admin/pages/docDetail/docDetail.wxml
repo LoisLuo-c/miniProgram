@@ -1,0 +1,25 @@
+<view class='container'>
+  <view class='top'>
+    <view class='image'>
+      <image src='/images/user_img.png'></image>
+    </view>
+    <view class='content'>
+      <text class='name'>我的名字</text>
+
+      <view class='introduce'>
+        <text>我的简介：哈哈哈哈哈哈呵呵呵呵呵呵呵呵或或或或或或或或</text>
+      </view>
+
+      <view class='achievement'>
+        <text>已治疗：000人</text>
+        <text>好评率：100%</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='middle'>
+  <view class='level'>
+    <text>我的就医等级、学历介绍</text>
+  </view>
+  
+</view>
